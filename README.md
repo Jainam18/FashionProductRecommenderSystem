@@ -120,58 +120,6 @@ The Streamlit app supports:
 
 ---
 
-## 📁 Repository Structure
-
-├── data/
-│ ├── styles.csv
-│ ├── FeatureEngineered_StyleData.csv
-│ └── images/
-│
-├── embeddings/
-│ ├── image_embeddings_clip.npy
-│ ├── siamese_embeddings.npy
-│
-├── models/
-│ ├── siamese_encoder.pt
-│
-├── notebooks/
-│ ├── data_preprocessing.ipynb
-│ ├── feature_engineering.ipynb
-│ ├── recommendationsystem-builder.ipynb
-│
-├── app.py # Streamlit application
-├── requirements.txt
-└── README.md
-
-yaml
-Copy code
-
----
-
-## ⚙️ Installation & Setup
-
-```bash
-git clone https://github.com/your-username/fashion-recommender.git
-cd fashion-recommender
-pip install -r requirements.txt
-Run the app:
-
-bash
-Copy code
-streamlit run app.py
-🔮 Future Work
-Fine-tune CLIP or use fashion-specific visual encoders
-
-Hard-negative mining for Siamese training
-
-Outfit-level recommendations (tops + bottoms + shoes)
-
-ANN search using FAISS for large-scale deployment
-
-Incorporate user interaction signals
-
-A/B testing with real users
-
 🎓 Academic Context
 This project was developed as a graduate-level final project for
 IS 557 – Machine Learning Techniques & Processes.
